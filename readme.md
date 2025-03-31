@@ -1,6 +1,8 @@
 # QA Automation Portfolio - Web Project (CodeceptJS + Playwright + BDD)
 
-This project is part of my QA portfolio and aims to demonstrate my skills in end-to-end test automation for web applications, using **CodeceptJS** integrated with **Playwright** and **BDD (Behavior-Driven Development)** style with **Gherkin**.
+This project is part of my QA portfolio and aims to demonstrate my skills in end-to-end test automation for web applications, using **CodeceptJS** integrated with **Playwright** and **BDD (Behavior-Driven Development)** style with **Gherkin**. 
+
+Tested website: [https://www.automationexercise.com].
 
 ---
 
@@ -62,8 +64,8 @@ project-root/
 
 ### 1. Clone the repository
 ```bash
-git clone <repo-link>
-cd project-folder
+cd your-project-folder-path
+git clone https://github.com/rafael-de-paiva/portfolio-qa-automated-web-test.git
 ```
 
 ### 2. Install dependencies
@@ -105,7 +107,7 @@ npm run test:sendform         # Run contact form scenario
 Thank you for checking out my project! Feel free to reach out:
 
 - Email: [rafael123paiva@gmail.com]
-- LinkedIn: [linkedin.com/in/rafael-paiva-49b88430a]
+- LinkedIn: [https://www.linkedin.com/in/rafael-paiva-49b88430a]
 
 ---
 
