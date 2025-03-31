@@ -13,7 +13,8 @@ exports.config = {
     login_pagePage: "./pages/login_page.js",
     signup_pagePage: "./pages/signup_page.js",
     confirmation_pagePage: "./pages/confirmation_page.js",
-    contact_pagePage: "./pages/contact_page.js"
+    contact_pagePage: "./pages/contact_page.js",
+    product_pagePage: "./pages/product_page.js"
   },
   mocha: {},
   bootstrap: null,

@@ -12,13 +12,13 @@ module.exports = {
   field: {
     loginEmail: 'input[data-qa="login-email"]',  
     loginPassword: 'input[data-qa="login-password"]', 
-    registerName: 'input[data-qa="signup-name"]', 
-    registerEmail: 'input[data-qa="signup-email"]'
+    registerEmail: 'input[data-qa="signup-email"]',
+    registerName: 'input[data-qa="signup-name"]'
   },
 
   text:{
-    register: 'New User Signup!',
-    enter: 'Login to your account'
+    enter: 'Login to your account',
+    register: 'New User Signup!'
   },
   
   //----------------Method funcions:-----------------

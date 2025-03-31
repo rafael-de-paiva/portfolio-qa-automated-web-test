@@ -7,13 +7,13 @@ module.exports = {
   //----------------Element mappings:----------------
 
   button: {
+    exit: 'a[class="btn btn-success"]',
     send: 'input[data-qa="submit-button"]',
-    exit: 'a[class="btn btn-success"]'
   },
 
   field: {
-    name: 'input[data-qa="name"]',
     email: 'input[data-qa="email"]',
+    name: 'input[data-qa="name"]',
     subject: 'input[data-qa="subject"]',
     textarea: 'textarea[data-qa="message"]'
   },
@@ -23,8 +23,8 @@ module.exports = {
   },
 
   text: {
-    touch: 'GET IN TOUCH',
-    sent: 'Success! Your details have been submitted successfully.'
+    sent: 'Success! Your details have been submitted successfully.',
+    touch: 'GET IN TOUCH'
   },
 
   //----------------Method funcions:-----------------

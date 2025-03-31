@@ -5,9 +5,10 @@ module.exports = {
   //----------------Element mappings:----------------
 
   button:{
-    login: 'a[href="/login"]',
+    contact: 'a[href="/contact_us"]',
     delete: 'a[href="/delete_account"]',
-    contact: 'a[href="/contact_us"]'
+    login: 'a[href="/login"]',
+    product: 'a[href="/products"]'
   },
 
   sector:{
@@ -28,6 +29,11 @@ module.exports = {
   gotoLogin(){
     I.waitForElement(this.button.login,5)
     I.click(this.button.login)
+  },
+
+  gotoProduct(){
+    I.waitForElement(this.button.product)
+    I.click(this.button.product)
   },
 
   validateHomePage(){

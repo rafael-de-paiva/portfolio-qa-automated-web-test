@@ -7,6 +7,7 @@ const login_page = require('../pages/login_page');
 const signup_page = require('../pages/signup_page');
 const confirmation_page = require('../pages/confirmation_page');
 const contact_page = require('../pages/contact_page');
+const product_page = require('../pages/product_page')
 const countries = [
   'India',
   'United States',
@@ -101,4 +102,31 @@ Then('I should see a sucess message', () => {
   contact_page.validateSent();
   contact_page.exitContact();
   home_page.validateHomePage();
+});
+
+//------------comment_product.feature exclusive:------------
+
+When('I access the product page', () => {
+  home_page.gotoProduct();
+  product_page.validateProductPage();
+});
+
+When('I search of specific product', () => {
+  product_page.startSearch();
+});
+
+Then('I should see the corresponding product list', () => {
+  product_page.confirmSearch();
+});
+
+When('I view a product', () => {
+  product_page.confirmProduct();
+});
+
+When('I make a comment', () => {
+  product_page.startReview(firstName, lastName, email);
+});
+
+Then('i should see the message Thank you for your review.', () => {
+  product_page.confirmReview();
 });
