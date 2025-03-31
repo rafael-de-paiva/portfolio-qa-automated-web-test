@@ -97,7 +97,6 @@ npm run test:sendform         # Run contact form scenario
 ---
 
 ## 🛠️ Future Improvements (Backlog)
-- Implement product comment test
 - Include negative tests (e.g., invalid login)
 - Enhance README with execution screenshots or gifs
 
