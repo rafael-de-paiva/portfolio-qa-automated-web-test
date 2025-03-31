@@ -1,0 +1,21 @@
+{
+  "name": "teste-qa-bdd_codecept_playwright",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test:all": "npx codeceptjs run",
+    "test:register": "npx codeceptjs run --grep=\"Register/Delete User Successfully\"",
+    "test:sendform": "npx codeceptjs run --grep=\"Send a form Successfully\"",
+    "test:comment": "npx codeceptjs run --grep=\"Comment Product Successfully\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@faker-js/faker": "^9.6.0",
+    "codeceptjs": "^3.7.3",
+    "open": "^10.1.0",
+    "playwright": "^1.51.1"
+  }
+}
