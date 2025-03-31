@@ -1,6 +1,8 @@
 # QA Automation Portfolio - Web Project (CodeceptJS + Playwright + BDD)
 
-This project is part of my QA portfolio and aims to demonstrate my skills in end-to-end test automation for web applications, using **CodeceptJS** integrated with **Playwright** and **BDD (Behavior-Driven Development)** style with **Gherkin**.
+This project is part of my QA portfolio and aims to demonstrate my skills in end-to-end test automation for web applications, using **CodeceptJS** integrated with **Playwright** and **BDD (Behavior-Driven Development)** style with **Gherkin**. 
+
+Tested website: [https://www.automationexercise.com].
 
 ---
 
