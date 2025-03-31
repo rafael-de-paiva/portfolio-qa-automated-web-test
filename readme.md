@@ -62,8 +62,8 @@ project-root/
 
 ### 1. Clone the repository
 ```bash
-git clone <repo-link>
-cd project-folder
+cd your-project-folder-path
+git clone https://github.com/rafael-de-paiva/portfolio-qa-automated-web-test.git
 ```
 
 ### 2. Install dependencies
@@ -105,7 +105,7 @@ npm run test:sendform         # Run contact form scenario
 Thank you for checking out my project! Feel free to reach out:
 
 - Email: [rafael123paiva@gmail.com]
-- LinkedIn: [linkedin.com/in/rafael-paiva-49b88430a]
+- LinkedIn: [https://www.linkedin.com/in/rafael-paiva-49b88430a]
 
 ---
 
