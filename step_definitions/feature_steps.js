@@ -50,10 +50,10 @@ Given('I am on the homepage', () => {
 
 When('I access the signup page', () => {
   home_page.gotoLogin();
+  login_page.validateLoginPage();
 });
 
 When('I fill in all required registration fields', () => {
-  login_page.validateLoginPage();
   login_page.startRegistering(username, email);
   login_page.finishRegistering();
   signup_page.validateSignup();
@@ -129,4 +129,19 @@ When('I make a comment', () => {
 
 Then('i should see the message Thank you for your review.', () => {
   product_page.confirmReview();
+});
+
+//--------------wrong_login.feature exclusive:--------------
+
+When('I access the login page', () => {
+  home_page.gotoLogin();
+  login_page.validateLoginPage();
+});
+
+When('I submit wrong email and password', () => {
+  login_page.startLogin(email, password);
+});
+
+Then('I should see a fail message', () => {
+  login_page.confirmFail();
 });

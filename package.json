@@ -6,7 +6,8 @@
     "test:all": "npx codeceptjs run",
     "test:register": "npx codeceptjs run --grep=\"Register/Delete User Successfully\"",
     "test:sendform": "npx codeceptjs run --grep=\"Send a form Successfully\"",
-    "test:comment": "npx codeceptjs run --grep=\"Comment Product Successfully\""
+    "test:comment": "npx codeceptjs run --grep=\"Comment Product Successfully\"",
+    "test:wronglogin": "npx codeceptjs run --grep=\"Login with wrong Credentials\""
   },
   "keywords": [],
   "author": "",

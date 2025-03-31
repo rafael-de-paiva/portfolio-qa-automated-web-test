@@ -18,13 +18,25 @@ module.exports = {
 
   text:{
     enter: 'Login to your account',
+    fail: 'Your email or password is incorrect!',
     register: 'New User Signup!'
   },
   
   //----------------Method funcions:-----------------
   
+  confirmFail(){
+    I.waitForText(this.text.fail, 5)
+    I.see(this.text.fail)
+  },
+
   finishRegistering(){
     I.click(this.button.confirmRegister)
+  },
+
+  startLogin(email, password){
+    I.fillField(this.field.loginEmail, email)
+    I.fillField(this.field.loginPassword, password)
+    I.click(this.button.confirmLogin)
   },
 
   startRegistering(username, email){

@@ -55,8 +55,15 @@ project-root/
 - Performs **file upload**
 - Validates success feedback
 
-### 3. (Planned) Product Comment
-- Planned test for searching a product and submitting a comment
+### 3. Product Comment (comment_product.feature)
+- Searches for specific product
+- Performs a product commentary
+- Validates sucess messages
+
+### 4. Product Comment (wrong_login.feature)
+- Fills all required fields
+- Uses dynamically generated data
+- Validates fail messages
 
 ---
 
@@ -84,6 +91,8 @@ npm run test:all
 ```bash
 npm run test:register         # Run user registration scenario
 npm run test:sendform         # Run contact form scenario
+npm run test:comment          # Run comment product form scenario
+npm run test:wronglogin       # Run wrong login form scenario
 ```
 
 ---
