@@ -106,7 +106,6 @@ npm run test:wronglogin       # Run wrong login form scenario
 ---
 
 ## 🛠️ Future Improvements (Backlog)
-- Include negative tests (e.g., invalid login)
 - Enhance README with execution screenshots or gifs
 
 ---
