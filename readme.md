@@ -16,7 +16,8 @@ Tested website: [https://www.automationexercise.com](https://www.automationexerc
 - **Cucumber + Gherkin** - For Behavior-Driven Development (BDD) style scenarios
 - **Faker.js** - For generating dynamic test data
 - **Node.js / NPM** - Runtime and dependency manager
-- **GitHub Actions** - CI pipeline to run tests on every push
+- **GitHub Actions** - CI pipeline to run tests on every pull
+- **Cypress Cloud** - Report Integrated with the CI
 
 ---
 
