@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test:all": "npx cypress run",
+    "test:register": "npx cypress run --spec 'cypress/e2e/features/register_user.feature'",
+    "test:sendform": "npx cypress run --spec 'cypress/e2e/features/send_form.feature'",
+    "test:comment": "npx cypress run --spec 'cypress/e2e/features/comment_product.feature'",
+    "test:wronglogin": "npx cypress run --spec 'cypress/e2e/features/wrong_login.feature'"
   },
   "keywords": [],
   "author": "",
