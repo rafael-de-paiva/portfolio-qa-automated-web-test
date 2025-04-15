@@ -6,6 +6,8 @@
 
 Tested website: [https://www.automationexercise.com](https://www.automationexercise.com)
 
+![Project Badge](https://github.com/rafael-de-paiva/portfolio-qa-automated-web-test/actions/workflows/cypress-pipeline.yml/badge.svg)
+
 ---
 
 ## 🚀 Technologies and Tools Used
