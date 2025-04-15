@@ -1,6 +1,6 @@
 # QA Automation Portfolio - Web Project (Cypress + Cucumber + BDD)
 
- This project is a updated version from a [old project](https://github.com/rafael-de-paiva/old-qa-automated-web-test).
+ This project is a updated version from an [old project](https://github.com/rafael-de-paiva/old-qa-automated-web-test).
 
  This one is part of my QA portfolio and aims to demonstrate my skills in end-to-end test automation for web applications, using **Cypress** integrated with **Cucumber (BDD)** and **Gherkin**.
 
