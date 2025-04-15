@@ -150,7 +150,7 @@ Tests are automatically executed on push or pull request to the `main` branch us
 ```
 - Runs on Ubuntu via GitHub-hosted runners
 - Executes all BDD scenarios
-- Can be extended to include video/screenshots uploads, reports, or Cypress Cloud integration
+- Extended to include video/screenshots uploads, reports, or Cypress Cloud integration
 
 ---
 
